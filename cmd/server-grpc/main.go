@@ -9,9 +9,9 @@ import (
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/reflection"
 
-	greetv1 "github.com/artyomtrofimov/grpc-connectrpc-demo/gen/greet/v1"
-	"github.com/artyomtrofimov/grpc-connectrpc-demo/internal/greeter"
-	"github.com/artyomtrofimov/grpc-connectrpc-demo/internal/logging"
+	greetv1 "github.com/stfu69-47/grpc-connectrpc-demo/gen/greet/v1"
+	"github.com/stfu69-47/grpc-connectrpc-demo/internal/greeter"
+	"github.com/stfu69-47/grpc-connectrpc-demo/internal/logging"
 )
 
 const addr = ":50051"

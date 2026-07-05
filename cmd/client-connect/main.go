@@ -12,8 +12,8 @@ import (
 
 	"connectrpc.com/connect"
 
-	greetv1 "github.com/artyomtrofimov/grpc-connectrpc-demo/gen/greet/v1"
-	"github.com/artyomtrofimov/grpc-connectrpc-demo/gen/greet/v1/greetv1connect"
+	greetv1 "github.com/stfu69-47/grpc-connectrpc-demo/gen/greet/v1"
+	"github.com/stfu69-47/grpc-connectrpc-demo/gen/greet/v1/greetv1connect"
 )
 
 func main() {

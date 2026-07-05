@@ -1,4 +1,4 @@
-module github.com/artyomtrofimov/grpc-connectrpc-demo
+module github.com/stfu69-47/grpc-connectrpc-demo
 
 go 1.26.1
 

@@ -231,7 +231,7 @@ const file_greet_v1_greet_proto_rawDesc = "" +
 	"\bsequence\x18\x02 \x01(\x05R\bsequence2\x9a\x01\n" +
 	"\fGreetService\x12:\n" +
 	"\x05Greet\x12\x16.greet.v1.GreetRequest\x1a\x17.greet.v1.GreetResponse\"\x00\x12N\n" +
-	"\vGreetStream\x12\x1c.greet.v1.GreetStreamRequest\x1a\x1d.greet.v1.GreetStreamResponse\"\x000\x01BEZCgithub.com/artyomtrofimov/grpc-connectrpc-demo/gen/greet/v1;greetv1b\x06proto3"
+	"\vGreetStream\x12\x1c.greet.v1.GreetStreamRequest\x1a\x1d.greet.v1.GreetStreamResponse\"\x000\x01B@Z>github.com/stfu69-47/grpc-connectrpc-demo/gen/greet/v1;greetv1b\x06proto3"
 
 var (
 	file_greet_v1_greet_proto_rawDescOnce sync.Once

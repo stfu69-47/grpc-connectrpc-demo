@@ -10,10 +10,10 @@ import (
 
 	"connectrpc.com/connect"
 
-	greetv1 "github.com/artyomtrofimov/grpc-connectrpc-demo/gen/greet/v1"
-	"github.com/artyomtrofimov/grpc-connectrpc-demo/gen/greet/v1/greetv1connect"
-	"github.com/artyomtrofimov/grpc-connectrpc-demo/internal/greeter"
-	"github.com/artyomtrofimov/grpc-connectrpc-demo/internal/logging"
+	greetv1 "github.com/stfu69-47/grpc-connectrpc-demo/gen/greet/v1"
+	"github.com/stfu69-47/grpc-connectrpc-demo/gen/greet/v1/greetv1connect"
+	"github.com/stfu69-47/grpc-connectrpc-demo/internal/greeter"
+	"github.com/stfu69-47/grpc-connectrpc-demo/internal/logging"
 )
 
 const addr = ":8080"

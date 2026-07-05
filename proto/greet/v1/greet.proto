@@ -2,7 +2,7 @@ syntax = "proto3";
 
 package greet.v1;
 
-option go_package = "github.com/artyomtrofimov/grpc-connectrpc-demo/gen/greet/v1;greetv1";
+option go_package = "github.com/stfu69-47/grpc-connectrpc-demo/gen/greet/v1;greetv1";
 
 // GreetService — демо-сервис для сравнения gRPC и ConnectRPC.
 service GreetService {

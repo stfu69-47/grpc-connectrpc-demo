@@ -12,7 +12,7 @@ import (
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/credentials/insecure"
 
-	greetv1 "github.com/artyomtrofimov/grpc-connectrpc-demo/gen/greet/v1"
+	greetv1 "github.com/stfu69-47/grpc-connectrpc-demo/gen/greet/v1"
 )
 
 func main() {
