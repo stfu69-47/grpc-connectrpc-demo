@@ -1,0 +1,14 @@
+version: v2
+plugins:
+  # Базовые Go-структуры из protobuf-сообщений
+  - local: protoc-gen-go
+    out: gen
+    opt: paths=source_relative
+  # Классический gRPC (клиент + сервер)
+  - local: protoc-gen-go-grpc
+    out: gen
+    opt: paths=source_relative
+  # ConnectRPC (клиент + сервер, понимает Connect/gRPC/gRPC-Web)
+  - local: protoc-gen-connect-go
+    out: gen
+    opt: paths=source_relative

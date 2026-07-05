@@ -1,0 +1,15 @@
+# Материалы статьи — не для публичного репозитория
+ARTICLE.md
+*.docx
+.~lock.*#
+
+# Бинарники и результаты прогонов
+/bin/
+*.log
+*.test
+bench_raw.txt
+ghz_*.txt
+
+# IDE
+.idea/
+.vscode/

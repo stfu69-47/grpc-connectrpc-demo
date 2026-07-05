@@ -1,0 +1,33 @@
+syntax = "proto3";
+
+package greet.v1;
+
+option go_package = "github.com/artyomtrofimov/grpc-connectrpc-demo/gen/greet/v1;greetv1";
+
+// GreetService — демо-сервис для сравнения gRPC и ConnectRPC.
+service GreetService {
+  // Unary-вызов: принимает имя, возвращает приветствие.
+  rpc Greet(GreetRequest) returns (GreetResponse) {}
+
+  // Server-streaming: отдаёт несколько приветствий подряд.
+  rpc GreetStream(GreetStreamRequest) returns (stream GreetStreamResponse) {}
+}
+
+message GreetRequest {
+  string name = 1;
+}
+
+message GreetResponse {
+  string greeting = 1;
+}
+
+message GreetStreamRequest {
+  string name = 1;
+  // Сколько сообщений отправить в поток.
+  int32 count = 2;
+}
+
+message GreetStreamResponse {
+  string greeting = 1;
+  int32 sequence = 2;
+}
